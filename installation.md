@@ -38,7 +38,7 @@ On Windows, there is no default compiler. For Python V2, Microsoft makes availab
 Once you've installed the Db2 driver, note its location on disk. The following commands need to be issued to get the driver properly installed.
 ```
 set IBM_DB_HOME=c:\Program Files\IBM\SQLLIB\    -- Location of DB2 installation
-cd Program files\ibm\sqllib\dsdriver\python32   -- Move to the directory in your command line
+cd C:\Program Files\IBM\SQLLIB\dsdriver\python32   -- Move to the directory in your command line
 easy_install ibm_db
 ```
 When the command completes you will have access to Db2 from within the Jupyter notebooks.
